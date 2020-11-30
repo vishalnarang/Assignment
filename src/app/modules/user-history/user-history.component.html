@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="login-container mt-5 pt-3">
+    <div class="col-12 d-flex">
+      <div class="col-8 work-exp text-left">
+        WORK EXPERIENCE
+      </div>
+      <div class="col-4 text-right name" *ngIf="name">
+        {{name}}
+      </div>
+    </div>
+    <div class="col-12 mt-3 table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th class="header-element">Company</th>
+            <th class="header-element">Title</th>
+            <th class="header-element">Location</th>
+            <th class="header-element">Month/Year</th>
+            <th class="header-element">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of list">
+            <td>{{data.company_name}}</td>
+            <td>{{data.title}}</td>
+            <td>{{data.location}}</td>
+            <td>{{data.start_date | date: 'MMM yyyy'}}</td>
+            <td>{{data.description}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="col-12 pb-3">
+      <button type="button" class="btn signup-btn signup-dimension" 
+      (click)="addUserHistory()"> ADD
+    </button>
+    </div>
+  </div>
+</div>

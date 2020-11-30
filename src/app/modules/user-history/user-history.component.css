@@ -1,0 +1,41 @@
+.header-element{
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4c4c4c;
+}
+
+thead > tr {
+    border: solid 1px #e6e6e6;
+    background-color: #fafafa;
+}
+
+tbody > tr{
+    border: solid 1px #e6e6e6;
+    background-color: #ffffff;
+}
+
+.work-exp{
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #293031;
+    padding: 0;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #286aa6;
+}

@@ -1,0 +1,58 @@
+.login-container{
+    border-radius: 2px;
+    box-shadow: 0 10px 20px 0 rgba(210, 210, 210, 0.5);
+    background-color: #ffffff;
+}
+
+.main-heading{
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #343534;
+}
+
+.label-class{
+  font-size: 10px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.signup-btn{
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #23c994;
+    cursor: pointer;
+    outline: none;
+}
+
+.signup-dimension{
+    border: solid 1px #23c994;
+    background-color: #ffffff;
+    width: 92px;
+    height: 31px;
+}
+
+.label-color{
+    color: #8c949c;
+    font-size: 12px;
+}
+
+.mt-8{
+    margin-top: 8rem;
+}
